@@ -1,6 +1,30 @@
-#dataset 
+## Dataset 
+
   I used PASCAL Visual Object Classes Challenge (2007) for the data set.
   
   anyone can access to the dataset through my Google Drive
   
   https://drive.google.com/file/d/1M2Xgom4nxb4_Kmz9p9UeR4iT2pof-TdB/view?usp=sharing
+
+
+
+## Training
+
+  Testing environment was contructed on Google Colab.
+
+
+## Result 
+
+  There was several errors while I was runing the open source code. Thus, I was not able to look through the result on my own. It led to failing further analysis on Faster-RCNN algorithm.
+  However, through leading the paper, carefully looking over to the original code, and python applied code in the github, the data shows considerable result on the algorithm.
+  
+  The main results is mentioned in the table below. 
+  
+  
+  ### Main Results
+|                           | training data                          | test data            | mAP   | time/img |
+| ------------------------- |:--------------------------------------:|:--------------------:|:-----:|:-----: |
+| Faster RCNN, VGG-16       | VOC 2007 trainval                      | VOC 2007 test        | 69.9% | 198ms |
+
+
+Seeing that it needs 198ms, but it still seems slower than Yolo algorithms.
